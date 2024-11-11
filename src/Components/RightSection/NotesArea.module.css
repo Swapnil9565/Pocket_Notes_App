@@ -78,8 +78,8 @@
 
 @media only screen and (max-width: 768px) {
     .textArea textarea{
-       max-width: 95vw;
-       min-width: 95vw;
+    max-width: 95vw;
+    min-width: 95vw;
     height: 100px;
     padding: 5px 60px 5px 5px;
 
@@ -93,7 +93,7 @@
     }
     .textArea img{
         position: absolute;
-        bottom: 3%;
+        bottom: 5%;
         right: 5%;
     }
 
