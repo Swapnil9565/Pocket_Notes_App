@@ -1,0 +1,100 @@
+.container{
+    height:70vh;
+    background-color: #DAE5F5;
+    overflow-y: scroll;
+    padding: 10px;
+}
+.container::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+}
+.container::-webkit-scrollbar-track {
+    background: #000000A1;
+    border-radius: 10px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: #ffffff; 
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;  
+}
+.messageContainer{
+    width: 100%;
+    height: auto;
+    color: black;
+    text-align: justify;
+    
+}
+.message{
+    box-shadow:0px 0px 20px 10px #c8ced8;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+    margin: 10px 0px;   
+    line-height: 22px;
+    word-break: break-all;
+}
+.timeStamp{
+    margin-top: 10px;
+    font-weight: 700;
+    text-align: right;
+}
+.input_container{
+    background-color: #001F8B;
+    height: 20vh;
+}
+.textArea{
+    padding: 15px 10px;
+}
+.textArea textarea{
+    width: 1130px;
+    height: 116px;
+    padding: 5px 60px 5px 5px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+.textArea textarea::placeholder{
+    color: #9A9A9A;
+}
+.textArea textarea::-webkit-scrollbar{
+    width: 8px;
+}
+.textArea textarea::-webkit-scrollbar-track {
+    background: #000000A1;
+    border-radius: 10px;
+}
+
+.textArea textarea::-webkit-scrollbar-thumb {
+    background-color: #ffffff; 
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;  
+}
+.textArea img{
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+}
+
+@media only screen and (max-width: 768px) {
+    .textArea textarea{
+       max-width: 95vw;
+       min-width: 95vw;
+    height: 100px;
+    padding: 5px 60px 5px 5px;
+
+    }
+    .message p{
+        font-size: 15px;
+    }
+    .timeStamp{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .textArea img{
+        position: absolute;
+        bottom: 3%;
+        right: 5%;
+    }
+
+}

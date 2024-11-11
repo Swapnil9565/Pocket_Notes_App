@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    align-items: center;
+    background-color: #001F8B;
+    height: 10vh;
+    color: white;
+    gap: 10px;
+    padding: 10px;
+}
+.avatar{
+    margin: 5px 10px;  
+    min-width: 55px;
+    min-height: 55px;
+    color: white;
+    border-radius: 50%;
+    margin: 10px 0px;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.groupName p{
+    font-size: 20px;
+    font-weight: 500;
+}
