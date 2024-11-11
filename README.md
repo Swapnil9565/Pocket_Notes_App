@@ -5,13 +5,13 @@ https://pocket-notes-app-chi.vercel.app/
 
 # Demo
 <div>
-<h6>Desktop View</h6>
+<h4>Desktop View</h4>
 <img src="https://github.com/user-attachments/assets/9d365e3c-79b8-42de-adb0-9f4d920ae05c"/>
 <img src="https://github.com/user-attachments/assets/6c789077-b96b-4fca-b030-ff22b149aabc"/>
 <img src="https://github.com/user-attachments/assets/adaae028-6e13-4db1-9cf9-dd969b93d901"/>
 </div>
 <div>
-  <h6>Mobile View</h6>
+  <h4>Mobile View</h4>
 <img src="https://github.com/user-attachments/assets/86eef046-9171-48c8-b5a3-c55d474c2aef"/>
 <img src="https://github.com/user-attachments/assets/5094a169-ed05-4f0c-a6a9-e160bbe09a96"/>
 <img src="https://github.com/user-attachments/assets/691820f0-3fa9-48fb-bb84-35df4bd6da3a"/>
